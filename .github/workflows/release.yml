@@ -36,8 +36,9 @@ jobs:
 
       - name: Build package using Hatch
         run: |
-            hatch run build:check
-
+            pip install twine
+            hatch build --clean
+            twine check dist/*
             echo ""
             echo "Generated files:"
             ls -lh dist/
