@@ -8,7 +8,7 @@
 *TODO: the above badges that indicate python version and package version will only work if your package is on PyPI.
 If you don't plan to publish to PyPI, you can remove them.*
 
-practice-ntruesde is a project that (describe what it does here).
+practice-ntruesde is a project that practices using pyospackage to create a new package.
 
 ## Get started
 
@@ -18,13 +18,19 @@ You can install this package into your preferred Python environment using pip:
 $ pip install practice-ntruesde
 ```
 
-TODO: Add a brief example of how to use the package to this section
-
 To use practice-ntruesde in your code:
 
 ```python
 >>> import practice-ntruesde
 >>> practice-ntruesde.hello_world()
+```
+
+To use add_numbers in your code:
+
+```python
+>>> from pyospackage.example import add_numbers
+>>> add_numbers(1, 2)
+3
 ```
 
 ## Copyright
